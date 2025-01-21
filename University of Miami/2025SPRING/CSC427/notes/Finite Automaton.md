@@ -1,5 +1,4 @@
 
-
 ### Definition
 A finite automaton is a 5-tuple $(Q,\Sigma,\delta, q_{0},F)$
 1. $Q$ is a finite set called the **states**
@@ -13,7 +12,6 @@ Union: $A\cup B$
 Concatenation: $A\circ B$
 Star:
 
-
 ### Language
 The set of string with only the $\epsilon$ empty string 
 $\Sigma^0=\{\epsilon\}$ 
@@ -26,4 +24,5 @@ $\Sigma^*=\bigcup_{i=0}^\infty \Sigma^i$
 
 ### Definition of Language
 A language $S$ is $S\subseteq \Sigma^*$
-A language that can be recognized by finite automaton is **Regular Language**
+A language $S$ that can be recognized by finite automaton $M$ is **Regular Language**
+$M$ can decide  if $\sigma \in \Sigma^*$ when $\sigma \in S$ 

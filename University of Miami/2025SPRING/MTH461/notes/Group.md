@@ -10,3 +10,29 @@ A group is a set $G$ with a binary operation * such that
 4. $(\mathbb{Z},\cdot)$ - not group
 5. $(Q,\cdot)$ not
 6. $(Q-\{ 0 \},\cdot)$ is  
+7. $GL(2,\mathbb{R})$ matrix with no 0 and uninvertibles
+
+### Theorems
+- $e$ is unique
+- $(x*y)^{-1}=y^{-1}*x^{-1}$ 
+- 
+### Cancellation Laws
+1. if $x*y=x*z$ then $y=z$ 
+2. if $y*x=z*x$ then $y=z$  
+
+### Abelian
+commutative group = Abelian
+All cyclic groups are Abelian
+### Order
+- order of $x \in G$ is finite if $\exists n\in \mathbb{Z}^{+}:x^{n}=e$ then $o(x)=n$
+
+- otherwise$x$ is of infinite order  $o(x)=\infty$  
+
+1. $o(x)=o(x^{-1})$
+2. if $o(x)=n$ and $x^{m}=e$ then $n$ divides $m$
+3. If $o(x)=n$ and $(m,n)=d$ then $o(x^{m})=\frac{n}{d}$   
+
+### Order of a group
+$|G|$ the number of element in a group 
+if $G=<x>$ then $|G|=o(x)$   
+
