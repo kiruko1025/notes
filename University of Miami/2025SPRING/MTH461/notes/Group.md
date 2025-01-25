@@ -15,7 +15,7 @@ A group is a set $G$ with a binary operation * such that
 ### Theorems
 - $e$ is unique
 - $(x*y)^{-1}=y^{-1}*x^{-1}$ 
-- 
+- $(xy)^{2}=xyxy$ 
 ### Cancellation Laws
 1. if $x*y=x*z$ then $y=z$ 
 2. if $y*x=z*x$ then $y=z$  
