@@ -15,7 +15,7 @@ Optimal Algorithms
 
  
 ### Loop Invariant
-Initialization - must be true before first iter
+Initialization - must be true before first iteration
 Maintenance - still true after iteration
 Termination - can tell the answer is right by some property
 
