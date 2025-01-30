@@ -1,10 +1,22 @@
 ### Non-deterministic Turing Machine
-Connect $S\circ T$ by $\epsilon$  
+#### Connect $S\circ T$ by $\epsilon$  
 A non-deterministic finite automaton is a 5-tuple $(Q,\Sigma,\delta, q_{0},F)$
 1. $Q$ is a finite set called the **states**
 2. $\Sigma$ is a finite set called the **alphabet**
-3. $\delta:Q\times \Sigma_{\epsilon}\to P(Q)$ is the **transition function**
+3. $\delta:Q\times \Sigma_{\epsilon}\to Pr(Q)$ is the **transition function**
 4. $q_{0}\in Q$ in the **start state**
 5. $F\subseteq Q$ is the **set of accept states**
 
-The power set of $Q$: $P(Q)=\{ \emptyset,\{ q_{1} \},\dots \{ q_{1},q_{2} \},\dots \{ q_{1},q_{2},q_{3},q_{4}  \}\}$ 
+The power set of $Q$: $Pr(Q)=\{ \emptyset,\{ q_{1} \},\dots \{ q_{1},q_{2} \},\dots \{ q_{1},q_{2},q_{3},q_{4}  \}\}$ 
+
+#### One input can go to multiple destinations
+$\left\{  S\in \sum ^{*}|\text{1011 is a substring}\right\}$ 
+
+#### Theorem
+Any NFA can be turned into DFA
+DFA can be turned into NFA by going no where when $\epsilon$ 
+
+Proof by power machine construction
+$N=\left\{  Q,\sum_{\epsilon}, \delta,q_{0},F  \right\}$ 
+$M=\left\{  Q',\sum,\delta',q_{0}',F'  \right\}$ 
+$Q'=Pr(Q)$ 
