@@ -24,7 +24,7 @@ A language $S$ that can be recognized by finite automaton $M$ is **Regular Langu
 ### Regular Operations
 Union: $A\cup B=\{ x|x \in A\cup x \in B \}$
 Concatenation: $A\circ B=\{ xy| x \in A \cap y \in B \}$ note $S \circ \emptyset=\emptyset$ and $S\circ \{ \epsilon \}=S$  
-Star: $A^{*}=\{ x_{1},x_{2},\dots x_{k}|k\geq 0\cap x_{i} \in B\}$ 
+Star: $A^{*}=\{ x_{1},x_{2},\dots x_{k}|k\geq 0\cap x_{i} \in A\}$ 
 
 ### Regular Language
 $M$ can decide  if $\sigma \in \Sigma^*$ when $\sigma \in S$ 
@@ -45,3 +45,4 @@ $q_{0}'=(q_{0}1,q_{0}2)$
 $F'=(F_{1}\times Q_{2})\cup(Q_{1}\times F_{2})$ 
 $S'((q_{1},q_{2}),\sigma)=((q_{1},\sigma),(q_{2},\sigma))$ 
 
+[[Drawing 2025-01-24 10.36.23.excalidraw]]

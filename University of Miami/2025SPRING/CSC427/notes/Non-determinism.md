@@ -20,3 +20,4 @@ Proof by power machine construction
 $N=\left\{  Q,\sum_{\epsilon}, \delta,q_{0},F  \right\}$ 
 $M=\left\{  Q',\sum,\delta',q_{0}',F'  \right\}$ 
 $Q'=Pr(Q)$ 
+The deterministic machine will have states that contains all possible states in the non-deterministic machine
